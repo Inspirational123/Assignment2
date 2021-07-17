@@ -1,0 +1,37 @@
+/* CSS: Property + Value */
+
+.block {
+  text-align: center;
+}
+
+table, th, td, tr {
+border: 1px solid black;
+text-align:center;
+width: 40%;
+table-layout: fixed;
+}
+table {
+ background-color:yellow;
+}
+tr {
+  background-color:pink;
+}
+th {
+  background-color:yellow;
+}
+
+.block1 {
+  border:2px solid red;
+}
+.sub {
+  color: hotpink;
+  font-family: Arial;
+}
+.sub1 {
+  color: pink;
+  font-family: Courier;
+}
+.sub2 {
+  color: lightpink;
+  font-family: Corsiva;
+}
