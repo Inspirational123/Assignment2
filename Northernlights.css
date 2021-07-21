@@ -28,10 +28,6 @@
     overflow: hidden;
     height: 48.5vh;
   }
-  @media screen and (max-width: 600px) {
-  div.subin {
-    font-size: 30px;
-  }
 
   nav>ul>li{
   display: inline;
