@@ -1,0 +1,40 @@
+
+.box2 {
+  width:90%;
+  height:100%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  text-align: center;
+  overflow: hidden;
+  }
+   .sub>img{
+    height: 100%;
+    width:100%;
+  }
+  .sub {
+    border: 2px solid black;
+    float: left;
+    margin:1px;
+    height: 50vh;
+
+  }
+  .subin {
+    border: 5px solid lightblue;
+    background-color: lightgray;
+    text-align: center;
+    overflow: hidden;
+    height: 48.5vh;
+  }
+  @media screen and (max-width: 600px) {
+  div.subin {
+    font-size: 30px;
+  }
+
+  nav>ul>li{
+  display: inline;
+  font-size: 20px;
+  margin: 20px;
+  }

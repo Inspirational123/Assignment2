@@ -1,0 +1,46 @@
+
+  .block {
+  display:flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  }
+  .box{
+  width:365vh;
+  color:grey;
+  }
+  img{
+  width: 25px;
+  }
+  .box1{
+  height:40vh;
+  width:1000vh;
+  margin-left: 80px;
+  color:grey;
+  }
+  .sub1>input{
+    width: 100%;
+  }
+  .ty {
+    height:7%;
+    width:39%;
+  }
+  .tx {
+    height:7%;
+    width:39%;
+  }
+  .com{
+  height:50%;
+  width:80%;
+  }
+  input{
+  border-radius: 0.5px;
+  border-color: lightgrey;
+  }
+  button{
+  background-color:black ;
+  color:white;
+  width: 70px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 70%;
+  }
