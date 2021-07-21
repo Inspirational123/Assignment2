@@ -1,4 +1,9 @@
 
+  nav>ul>li{
+  display: inline;
+  font-size: 20px;
+  margin: 20px;
+  }
 .box2 {
   width:90%;
   height:100%;
@@ -28,9 +33,9 @@
     overflow: hidden;
     height: 48.5vh;
   }
-
-  nav>ul>li{
-  display: inline;
-  font-size: 20px;
-  margin: 20px;
+  @media screen and (max-width: 600px) {
+  div.subin {
+    font-size: 30px;
   }
+
+
