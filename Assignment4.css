@@ -1,0 +1,47 @@
+.box {
+  background-color: orange;
+
+background-position: 50% 70%;
+ width: 50%;
+ height: 70%;
+ position: fixed;
+ overflow: hidden;
+
+}
+.box1 {
+  width: 10%;
+  height: 17%;
+  top: 27.5%;
+  left:25.8%;
+  transition: transform 10s linear;
+  transform: rotate(30deg);
+  transform-origin: center left;
+overflow: hidden;
+  position: absolute;
+
+}
+.box2>img{
+  height: 100%;
+  width: 100%;
+
+}
+.box>img{
+  height: 100%;
+  width: 100%;
+}
+.box1>img{
+  height: 100%;
+  width: 100%;
+}
+
+.box2 {
+  width: 5%;
+  height: 20%;
+  top: 16.5%;
+  left: 23%;
+overflow: hidden;
+  transition: transform 10s linear;
+  transform-origin: center bottom;
+  transform: rotate(360deg);
+  position: absolute;
+}
