@@ -1,0 +1,140 @@
+.Mainwindow {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+  grid-auto-rows: 650px;
+  grid-gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+.aa {
+  border: 2px solid #800020;
+  padding-top: 2%;
+  padding-bottom: 7%;
+  }
+.ab {
+  border: 2px solid #800020;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  }
+.orange {
+  background-color: violet;
+  padding: 2%;
+  display: block;
+  width: 130px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+
+  }
+  img {
+  display: block;
+  margin: 0 auto;
+  height: 80%;
+  width: 60%;
+   }
+
+
+  .modalwindow1 {
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,100,270,0.8);
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    padding-top: 3%;
+    }
+
+  .modalwindow1:target {
+    opacity: 1;
+    pointer-events: auto;
+    }
+
+.msgblock1{
+    position:relative;
+    width: 60%;
+    height: 60%;
+    background-color: lightgray;
+    margin: auto;
+    width: 60%;
+    height: 550px;
+    padding-left: 12%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    overflow: hidden;
+    }
+    .par1 {
+      background-color: lightgreen;
+      border-radius: 2px;
+    }
+
+    .h1{
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: normal;
+      position: relative;
+      font-size: 28px;
+      line-height: 100%;
+      width: 77.8%;
+      background: hotpink;
+      color: white;
+    }
+
+ .orange2 {
+   background-color: purple;
+   text-decoration: none;
+   padding: 2%;
+   display: block;
+   width: 130px;
+   margin: auto;
+   float: right;
+   }
+   .orange2 a {
+       text-decoration: none;
+       color: white;
+   }
+ .modalwindow2 {
+   position: fixed;
+   top: 0;
+   bottom:0;
+   left: 0;
+   right: 0;
+   background-color: rgba(51, 170, 51, .7) ;
+   opacity: 0;
+   pointer-events: none;
+   padding-top: 3%;
+  }
+
+ .modalwindow2:target {
+   opacity: 1;
+   pointer-events: auto;
+  }
+ .msgblock2 {
+   position:relative;
+   width: 60%;
+   height: 60%;
+   background-color: lightpink;
+   margin: auto;
+   width: 60%;
+   height: 550px;
+   padding-left: 12%;
+   padding-right: 6%;
+   padding-bottom: 6%;
+   overflow: hidden;
+ }
+
+ .orange3 {
+   background-color: lightgray;
+   width: 30px;
+   margin: auto;
+   float: right;
+   position:relative;
+
+ }
+ .orange3 a {
+   text-decoration: none;
+
+ }
