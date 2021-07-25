@@ -1,0 +1,260 @@
+/* html */
+html {
+  background-color: #fff9d9;
+  padding: 3%;
+  }
+  /* header */
+.header {
+  height: 200px;
+  margin-top: 3%;
+  }
+  .h1 {
+    position: relative;
+    animation-name: ex;
+    animation-duration: 10s;
+  }
+
+  @keyframes ex {
+    0%   {background-color:red; left:0px;}
+    25%  {background-color:yellow; left:200px;}
+    50%  {background-color:blue; left:0px; }
+    75%  {background-color:green; left:200px; }
+    100% {background-color:red; left:0px;}
+  }
+
+.logo>img {
+  border-radius: 25px;
+  width: 10%;
+  height: 80%;
+  float: left;
+  margin-left: 3%;
+  border: 2px solid #687856;
+  box-shadow: 1px 1px 5px #687856;
+
+  }
+
+.header1 {
+  width: 83%;
+  height: 20%;
+  float: left;
+  color: #687856;
+  font-family: cursive;
+  font-size: 130%;
+  margin-left: 2%;
+}
+.header2 {
+  width: 70%;
+  height: 20%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 2%;
+  }
+  .hh {
+  animation-name: ex1;
+  animation-duration: 10s;
+  position: relative;
+
+  }
+  @keyframes ex1 {
+    0%   {background-color:red; left:0px;}
+    25%  {background-color:yellow; left:200px;}
+    50%  {background-color:blue; left:0px; }
+    75%  {background-color:green; left:200px; }
+    100% {background-color:red; left:0px;}
+  }
+.aa {
+  position: relative;
+  animation-name: p2;
+  animation-duration: 10s;
+}
+
+@keyframes p2 {
+  0% {
+    transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    transform: scale(0.4) rotate3d(-1, 1, 0, -90deg);
+  }
+  100% {
+    transform: scale(1) rotate3d(-1, 1, 0, -180deg);
+  }
+}
+
+  /* slideshow */
+  .frame {
+  height: 50px;
+  overflow: hidden;
+  }
+  .slidewrapper {
+  width: 400%;
+  height: 100%;
+  animation: slideshow 20s;
+  }
+  .slide {
+  background-color: #ccb129;
+  text-align: center;
+  height: 100%;
+  width: 496px;
+  float: left;
+  font-size: 24px;
+  overflow: hidden;
+  }
+@keyframes slideshow {
+  0% {}
+  33% {margin-left: -100%;}
+  66% {margin-left: -200%;}
+  99% {margin-left: -300%;}
+  }
+
+  /* intro */
+
+  .intro {
+  width: 100%;
+  position:relative;
+  align-content: center;
+  }
+  img {
+    width: 100%;
+    height: 700px;
+  }
+.box1 {
+  background-color: lightgray;
+  border: 3px solid white;
+  width: 25%;
+  height: 15%;
+  padding: 3%;
+  position: absolute;
+  top: 90%;
+  left: 18%;
+}
+
+/* part one */
+.sec {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-content: center;
+  grid-gap: 50px;
+  margin-top: 5%;
+  position: relative;
+
+
+}
+.boxx>img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+
+}
+.boxx {
+  background: linear-gradient(35deg, purple, pink);
+
+}
+.box2 {
+  border-color: 3px solid lime;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+
+}
+.box3 {
+  color: #86876f;
+  border-color: 7px solid #8e9669;
+  background-color: #eaf0d1;
+  padding: 4%;
+  background: linear-gradient(45deg, #eaedb4, #d3dbab);
+
+}
+/* part two */
+.row {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-content: center;
+
+}
+.item>img {
+  width: 33%;
+  height: 40%;
+}
+.h4 {
+  color: #86876f;
+}
+
+.orange {
+  padding: 2%;
+  display: block;
+  width: 130px;
+  margin: auto;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  }
+
+  .modalwindow1 {
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 27%;
+    margin-right: 27%;
+
+    }
+
+  .modalwindow1:target {
+    opacity: 1;
+    pointer-events: auto;
+    }
+
+.msgblock1{
+    position:relative;
+    width: 60%;
+    height: 60%;
+    background-color: lightgray;
+
+    }
+.img1 {
+  height: 50%;
+  width: 50%;
+}
+
+.content {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-content: center;
+}
+.Mainwindow:target {
+  opacity: 1;
+  pointer-events: auto;
+  }
+
+.orange c {
+  color: white;
+}
+/* footer */
+
+.footer {
+background-color: black;
+color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-content: center;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+
+}
+.img4 {
+  height: 20px;
+  width: 30px;
+}
