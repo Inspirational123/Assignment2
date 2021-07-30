@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<h3>Part a</h3>
+    <div id="container">
+      <h1>Tip Calculator</h1>
+      <div id="calculator">
+
+
+        <form>
+
+              $ <input id="billamt" type="text" placeholder="Bill Amount">
+
+              <p>How was your service?<p>
+            <select id="serviceQual">
+                <option disabled selected value="0">-- Choose an Tip --</option>
+                <option value="0.3">30&#37; &#45; Outstanding</option>
+                <option value="0.2">20&#37; &#45; Good</option>
+                <option value="0.15">15&#37; &#45; It was OK</option>
+                <option value="0.1">10&#37; &#45; Bad</option>
+                <option value="0.05">5&#37; &#45; Terrible</option>
+            </select>
+
+        </form>
+        <button type="button" id="calculate">Calculate!</button>
+      </div>
+      <!--calculator end-->
+      <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div>
+      <!--totalTip end-->
+
+    </div>
+    <!--container end-->
+
+
+
+    <h3>part b temperature Converter</h3>
+    <p>
+      <label>Fahrenheit</label>
+      <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+      oninput="temperatureConverter(this.value)"
+      onchange="temperatureConverter(this.value)">
+    </p>
+    <p>Celsius: <span id="outputCelsius"></span></p>
+
+    <p>
+      <label>Celsius</label>
+      <input id="inputCelsius" type="number" placeholder="Celsius"
+      oninput="temperatureConverter(this.value)b"
+      onchange="temperatureConverter(this.value)b">
+    </p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+
+    <script type="text/javascript" src="Assignment8.js"></script>
+
+  </body>
+</html>
