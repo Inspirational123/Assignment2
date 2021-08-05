@@ -60,4 +60,6 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('.guess').value = '';
     document.querySelector('body').style.backgroundColor = '';
     document.querySelector('.num').style.width = '15rem';
+    document.querySelector('.guesses').textContent = 'Previous Guesses: ';
+
 });
